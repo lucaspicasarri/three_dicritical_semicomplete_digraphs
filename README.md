@@ -1,58 +1,39 @@
-<!DOCTYPE html>
-<html>
+# README
 
-<head>
-    <title>README</title>
-</head>
+## Overview
 
-<body>
+This repository serves as an appendix to the paper titled "The 3-dicritical semi-complete digraphs." The content herein is a collaborative effort by Frédéric Havet, Florian Hörsch and Lucas Picasarri-Arrieta.
 
-    <h1>Overview</h1>
+## Usage
 
-    <p>This repository serves as an appendix to the papers titled "The 3-dicritical semi-complete digraphs." The content herein is a collaborative effort by Frédéric Havet and Florian Hörsch.</p>
+To validate and complete the proofs outlined in Propositions 15 and 16, as well as Lemmas 18 and 20 from the paper, execute the following SageMath files:
 
-    <h1>Usage</h1>
+- `1_proposition15.sage`
+- `2_proposition16.sage`
+- `3_lemma18.sage`
+- `4_lemma20.sage`
 
-    <p>To validate and complete the proofs outlined in Propositions 15 and 16, as well as Lemmas 18 and 20 from the paper, execute the following SageMath files:</p>
+## Execution Instructions
 
-    <ul>
-        <li><code>1_proposition15.sage</code></li>
-        <li><code>2_proposition16.sage</code></li>
-        <li><code>3_lemma18.sage</code></li>
-        <li><code>4_lemma20.sage</code></li>
-    </ul>
+1. Ensure that SageMath is installed on your system.
+2. Open a SageMath prompt.
+3. Execute the chosen file by running the following command:
+   ```bash
+   load("xxx/yyy.sage")
+   ```
+Replace "xxx/yyy.sage" with the correct path to the respective SageMath file.
 
-    <h1>Execution Instructions</h1>
+## File Descriptions
 
-    <ol>
-        <li>Ensure that SageMath is installed on your system.</li>
-        <li>Open a SageMath prompt.</li>
-        <li>Execute the chosen file by running the following command:</li>
-    </ol>
+The execution of `1_proposition15.sage` generates the files:
 
-    <pre><code>load("xxx/yyy.sage")</code></pre>
+- `T1.pajek` (corresponding to tournament T^1)
+- `T2.pajek` (corresponding to tournament T^2)
+- `T3.pajek` (corresponding to tournament T^3)
+- `T4.pajek` (corresponding to tournament T^4)
 
-    <p>Replace "xxx/yyy.sage" with the correct path to the respective SageMath file.</p>
+These files are integral to the completion of the specified propositions and lemmas.
 
-    <h1>File Descriptions</h1>
+## Dependencies
 
-    <p>The execution of <code>1_proposition15.sage</code> generates the files:</p>
-
-    <ul>
-        <li><code>T1.pajek</code> (corresponding to tournament T^1)</li>
-        <li><code>T2.pajek</code> (corresponding to tournament T^2)</li>
-        <li><code>T3.pajek</code> (corresponding to tournament T^3)</li>
-        <li><code>T4.pajek</code> (corresponding to tournament T^4)</li>
-    </ul>
-
-    <p>These files are integral to the completion of the specified propositions and lemmas.</p>
-
-    <h1>Dependencies</h1>
-
-    <p>Make sure to have SageMath installed on your system to seamlessly execute the provided SageMath files.</p>
-
-    <p>For any inquiries or issues, feel free to contact the contributors.</p>
-
-</body>
-
-</html>
+Make sure to have SageMath installed on your system to seamlessly execute the provided SageMath files.
