@@ -6,12 +6,12 @@ This repository serves as an appendix to the paper titled "The 3-dicritical semi
 
 ## Usage
 
-To validate and complete the proofs outlined in Propositions 15 and 16, as well as Lemmas 18 and 20 from the paper, execute the following SageMath files:
+To validate and complete the proofs of Lemmas 19, 20, 22, and 24 from the paper, execute the following SageMath files in this order:
 
-- `1_proposition15.sage`
-- `2_proposition16.sage`
-- `3_lemma18.sage`
-- `4_lemma20.sage`
+- `1_lemma19.sage`
+- `2_lemma20.sage`
+- `3_lemma22.sage`
+- `4_lemma24.sage`
 
 ## Execution Instructions
 
@@ -25,14 +25,12 @@ Replace "xxx/yyy.sage" with the correct path to the respective SageMath file.
 
 ## File Descriptions
 
-The execution of `1_proposition15.sage` generates the files:
+The execution of `1_lemma19.sage` generates the files:
 
 - `T1.pajek` (corresponding to tournament T^1)
 - `T2.pajek` (corresponding to tournament T^2)
 - `T3.pajek` (corresponding to tournament T^3)
 - `T4.pajek` (corresponding to tournament T^4)
-
-These files are integral to the completion of the specified propositions and lemmas.
 
 ## Dependencies
 
