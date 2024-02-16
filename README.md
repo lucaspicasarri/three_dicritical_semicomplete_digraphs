@@ -36,4 +36,4 @@ These files are integral to the completion of the specified propositions and lem
 
 ## Dependencies
 
-Make sure to have SageMath installed on your system to seamlessly execute the provided SageMath files.
+Make sure to have SageMath installed on your system to execute the provided SageMath files.
