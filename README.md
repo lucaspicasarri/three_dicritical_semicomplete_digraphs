@@ -8,10 +8,10 @@ This repository serves as an appendix to the paper titled "The 3-dicritical semi
 
 To validate and complete the proofs of Lemmas 19, 20, 22, and 24 from the paper, execute the following SageMath files in this order:
 
-- `1_lemma19.sage`
-- `2_lemma20.sage`
-- `3_lemma22.sage`
-- `4_lemma24.sage`
+- `1_lemma22.sage`
+- `2_lemma23.sage`
+- `3_lemma25.sage`
+- `4_lemma27.sage`
 
 ## Execution Instructions
 
